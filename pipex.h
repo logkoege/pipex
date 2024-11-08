@@ -6,7 +6,7 @@
 /*   By: logkoege <logkoege@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 12:56:25 by logkoege          #+#    #+#             */
-/*   Updated: 2024/11/07 18:07:54 by logkoege         ###   ########.fr       */
+/*   Updated: 2024/11/08 13:37:47 by logkoege         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <fcntl.h>
+# include <sys/types.h>
 
 //utils2.c
 void		ft_putstr_fd(char *s, int fd);
